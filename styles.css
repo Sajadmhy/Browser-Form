@@ -27,4 +27,30 @@ input:hover {
 
 input:focus {
     background-color: gray;
+    color: white;
+}
+
+label {
+    cursor: pointer;
+}
+
+/* input:invalid {
+    border-color: red;
+} */
+
+/* input:valid {
+    border-color: black;
+} */
+
+#sub , #reset {
+    margin: 10px;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+button:hover {
+    background-color: dodgerblue;
+    cursor: pointer;
 }
